@@ -150,7 +150,9 @@ Class Client
     End Sub
 
     Sub DeleteFiles()
+        Dim Files = Serialization.Deserialize(ReceiveMessage(), GetType(List(Of String))
 
+        Dim PathToUserFolder = LogMeIn.Settings.DataPath & User.ID & "\"
     End Sub
 #End Region
 
