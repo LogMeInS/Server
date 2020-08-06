@@ -148,6 +148,10 @@ Class Client
 
         SendFile(IO.File.ReadAllBytes(LogMeIn.Settings.DataPath & User.ID & "\" & RelativePath))
     End Sub
+
+    Sub DeleteFiles()
+
+    End Sub
 #End Region
 
 #Region "Users"
